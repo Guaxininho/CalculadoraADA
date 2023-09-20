@@ -43,7 +43,7 @@ igual.addEventListener("click", () => {
     visor.value = resultado;
   }
 
-  visor.value > "20"
+  parseInt(visor.value) > 20
     ? (body.style.backgroundColor = "green")
     : (body.style.backgroundColor = "orange");
 });
